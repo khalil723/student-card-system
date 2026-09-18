@@ -5,8 +5,7 @@ package.domain = org.amughtaribeen
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,ttf,kv,txt
 version = 1.0
-requirements = python3==3.11.10,kivy,plyer
-
+requirements = python3==3.11.10,hostpython3==3.11.10,kivy==2.3.1,plyer
 orientation = portrait
 fullscreen = 0
 android.api = 33
