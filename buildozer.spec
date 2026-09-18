@@ -5,14 +5,14 @@ package.domain = org.amughtaribeen
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,ttf,kv,txt
 version = 1.0
-requirements = python3,kivy,plyer
+requirements = python3==3.11.10,kivy,plyer
 orientation = portrait
 fullscreen = 0
 android.api = 33
 android.minapi = 23
 android.archs = arm64-v8a,armeabi-v7a
 android.permissions = READ_MEDIA_IMAGES,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
-
+p4a.branch = master
 [buildozer]
 log_level = 2
 warn_on_root = 1
